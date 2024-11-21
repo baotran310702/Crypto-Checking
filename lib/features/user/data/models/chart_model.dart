@@ -1,4 +1,4 @@
-import 'package:crypto/features/chart/domain/entities/chart.dart';
+import 'package:crypto/features/user/domain/entities/chart.dart';
 
 class ChartModel extends Chart {
   ChartModel({

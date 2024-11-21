@@ -36,4 +36,24 @@ class Chart {
     required this.takerBuyQuoteVolume,
     required this.ignore,
   });
+
+  factory Chart.empty() => Chart(
+        startTime: 0,
+        closeTime: 0,
+        symbol: "",
+        interval: "",
+        firstTradeId: 0,
+        lastTradeId: 0,
+        openPrice: "",
+        closePrice: "",
+        highPrice: "",
+        lowPrice: "",
+        baseAssetVolume: "",
+        numberOfTrades: 0,
+        isClosed: false,
+        quoteAssetVolume: "",
+        takerBuyBaseVolume: "",
+        takerBuyQuoteVolume: "",
+        ignore: "",
+      );
 }

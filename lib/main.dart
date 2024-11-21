@@ -1,4 +1,4 @@
-import 'package:crypto/features/chart/chart_screen.dart';
+import 'package:crypto/features/user/user_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto/core/utils/di_setup.dart' as di;
 
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: const Center(
-        child: UserScreen(),
+        child: ChartScreen(),
       ),
     );
   }
