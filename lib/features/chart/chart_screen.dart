@@ -1,6 +1,6 @@
 import 'package:crypto/core/utils/di_setup.dart';
-import 'package:crypto/features/feature_one/data/repositories/user_repository.dart';
-import 'package:crypto/features/feature_one/domain/usecases/get_user_usecases.dart';
+import 'package:crypto/features/chart/data/repositories/user_repository.dart';
+import 'package:crypto/features/chart/domain/usecases/get_user_usecases.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
 

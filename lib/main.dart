@@ -1,4 +1,4 @@
-import 'package:crypto/features/feature_one/user_screen.dart';
+import 'package:crypto/features/chart/chart_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto/core/utils/di_setup.dart' as di;
 
